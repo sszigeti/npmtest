@@ -1,0 +1,27 @@
+{
+  "name": "npmtest",
+  "version": "0.1.0",
+  "description": "A small library providing utility methods to escape and unescape HTML entities",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sszigeti/npmtest.git"
+  },
+  "keywords": [
+    "escape",
+    "unescape",
+    "html"
+  ],
+  "author": "Sandor Szigeti <sandor@sandorhq.com> (http://sandorhq.com/)",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/sszigeti/npmtest/issues"
+  },
+  "devDependencies": {
+    "mocha": "~2.1.0",
+    "chai": "~2.1.0"
+  }
+}
